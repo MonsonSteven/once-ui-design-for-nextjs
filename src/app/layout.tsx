@@ -40,11 +40,14 @@ export default function RootLayout({
 		<Flex
 			as="html" lang="en"
 			fillHeight background="page"
-			data-neutral="gray" data-brand="blue" data-accent="violet"
-			data-solid="color" data-solid-style="flat"
 			data-theme="dark"
-			data-border="playful"
-			data-surface="filled"
+			data-brand="emerald"
+			data-accent="cyan"
+			data-neutral="slate"
+			data-border="rounded"
+			data-solid="contrast"
+			data-solid-style="flat"
+			data-surface="translucent"
 			data-transition="all"
 			className={classNames(
 				primary.variable,
@@ -63,3 +66,26 @@ export default function RootLayout({
 		</Flex>
 	);
 }
+
+import { Manrope } from 'next/font/google';
+import { Roboto_Slab } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
+
+const primary = Manrope({
+    variable: '--font-primary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
+const secondary = Roboto_Slab({
+    variable: '--font-secondary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
+const tertiary = Montserrat({
+    variable: '--font-tertiary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
