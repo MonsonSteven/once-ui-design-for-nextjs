@@ -8,19 +8,19 @@ import Link from 'next/link';
 export default function Home() {
 	const links = [
 		{
-			href: "https://once-ui.com/docs/theming",
-			title: "Themes",
-			description: "Style your app in minutes.",
+			href: "https://monsonsteven.wordpress.com/portfolio/",
+			title: "Portfolio",
+			description: "Look at my projects here.",
 		},
 		{
-			href: "https://once-ui.com/docs/flexComponent",
-			title: "Layout",
-			description: "Build responsive layouts.",
+			href: "https://monsonsteven.wordpress.com/certifications-awards-and-coursework/",
+			title: "Certifications",
+			description: "Learn about what I've learned.",
 		},
 		{
-			href: "https://once-ui.com/docs/typography",
-			title: "Typography",
-			description: "Scale text automatically.",
+			href: "https://monsonsteven.wordpress.com/about-me/",
+			title: "About",
+			description: "Learn a bit about me.",
 		},
 	];
 
@@ -59,7 +59,7 @@ export default function Home() {
 								href="https://once-ui.com/docs"
 								suffixIcon="chevronRight"
 								variant="secondary">
-								Read docs
+								Learn more.
 							</Button>
 						</Flex>
 					</Flex>
@@ -109,13 +109,13 @@ export default function Home() {
 				<Flex
 					gap="12">
 					<Button
-						href="https://github.com/once-ui-system/nextjs-starter"
+						href="https://github.com/MonsonSteven"
 						prefixIcon="github" size="s" variant="tertiary">
 						GitHub
 					</Button>
 					<Button
-						href="https://discord.com/invite/5EyAQ4eNdS"
-						prefixIcon="discord" size="s" variant="tertiary">
+						href="https://www.linkedin.com/in/steven-monson-dev/"
+						prefixIcon="linkedin" size="s" variant="tertiary">
 						Discord
 					</Button>
 				</Flex>
