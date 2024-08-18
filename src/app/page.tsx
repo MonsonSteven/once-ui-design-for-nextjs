@@ -53,7 +53,7 @@ export default function Home() {
 							</InlineCode>
 							<Heading
 								variant="display-strong-s">
-								Comprehensive.<br/> Responsive.<br/>Accessible.
+								Visualize.<br/> Develop.<br/> Deploy.
 							</Heading>
 							<Button
 								href="https://once-ui.com/docs"
@@ -105,7 +105,6 @@ export default function Home() {
 				justifyContent="space-between">
 				<Text
 					variant="body-default-s" onBackground="neutral-weak">
-					© 2024 Once UI, <Link href="https://github.com/once-ui-system/nextjs-starter?tab=MIT-1-ov-file">MIT License</Link>
 				</Text>
 				<Flex
 					gap="12">
